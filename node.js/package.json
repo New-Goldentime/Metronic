@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-mysql-api-example",
+  "version": "1.0.0",
+  "description": "nodejs api mysql express example",
+  "main": "server.js",
+  "scripts": {
+    "dev-api": "better-npm-run dev-api",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "betterScripts": {
+    "dev-api": {
+      "command": "nodemon --exitcrash server.js"
+    }
+  },
+  "author": "GodSamix",
+  "license": "ISC",
+  "dependencies": {
+    "@mysql/xdevapi": "^8.0.21",
+    "bcrypt": "^5.1.0",
+    "better-npm-run": "^0.1.1",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^9.0.0",
+    "method-override": "^3.0.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.4",
+    "sequelize": "^6.28.0"
+  }
+}
